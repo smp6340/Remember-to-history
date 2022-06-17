@@ -4,7 +4,7 @@ import Background from './components/background';
 import Home from './pages/Home';
 
 function App() {
-  return (
+  return (  
     <>
       <Background />
       <Home />

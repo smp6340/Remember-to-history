@@ -15,4 +15,5 @@ export const Title = styled.div`
     font-style: normal;
     font-weight: 100;
     font-size: 150px;
+    user-select: none;
 `;
