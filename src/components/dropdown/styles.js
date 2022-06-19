@@ -10,11 +10,12 @@ export const Container = styled.div`
 
 export const DropdownMenu = styled.select`
     position: relative;
+    border: 0 none;
+    border-radius: 4px;
+    outline: 0 none;
+    padding: 0 5px;
     width: 30%;
     height: 5vh;
-    border-radius: 50px;
-    font-family: "Han";
-    font-style: normal;
-    font-weight: 100;
     font-size: 20px;
+    z-index: 3;
 `;
