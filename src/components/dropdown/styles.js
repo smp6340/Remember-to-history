@@ -19,3 +19,8 @@ export const DropdownMenu = styled.select`
     font-size: 20px;
     z-index: 3;
 `;
+
+export const SubmitBtn = styled.button`
+    position: relative;
+    width: 10%;
+`;
