@@ -11,7 +11,6 @@ export const Container = styled.div`
 export const DropdownMenu = styled.select`
     position: relative;
     border: 0 none;
-    border-radius: 4px;
     outline: 0 none;
     padding: 0 5px;
     width: 30%;
