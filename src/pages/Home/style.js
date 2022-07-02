@@ -16,4 +16,4 @@ export const Title = styled.div`
     font-weight: 100;
     font-size: 150px;
     user-select: none;
-`;
+`; xc

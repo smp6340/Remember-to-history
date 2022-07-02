@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
+//Data
 import { data } from "../../data/data";
 
+//Style
 import * as S from "./styles";
 
 
@@ -24,6 +26,8 @@ const Quiz = () => {
             setScore(score + 1);
         }
     };
+
+    
 
     return(
         <>
