@@ -1,5 +1,5 @@
 //Quiz Data
-export const questions = [
+export const data = [
 //Test Data
     {
         id: "0",
