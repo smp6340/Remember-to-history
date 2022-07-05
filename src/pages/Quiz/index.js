@@ -48,6 +48,14 @@ const Quiz = () => {
             }
     };
 
+    //게임을 재시작하는 함수
+    const startOver = () => {
+        setCurrentQuestion(0);
+        setFinish(false);
+        setMyAnswer("");
+        setScore(0);
+    };
+
     return(
         <>
         </>
