@@ -4,11 +4,12 @@ import React from "react";
 import * as S from "./styles";
 
 //Functions
-import Quiz from "../../functions/Quiz";
+import * as Quiz from "../../functions/Quiz/index";
 
 const Finish = () => {
     return(
         <>
+        
         </>
     );
 }
