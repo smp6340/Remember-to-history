@@ -13,13 +13,6 @@ code {
 }
 
 @font-face {
-  font-family: "Han";
-  font-style: normal;
-  font-weight: 100;
-  src: url("./assets/afont/BlackHanSans-Regular.ttf");
-}
-
-@font-face {
   font-family: "Joseon";
   font-style: normal;
   font-weight: 100;

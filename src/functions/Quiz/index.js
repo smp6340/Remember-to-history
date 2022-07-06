@@ -8,7 +8,6 @@ import * as S from "./styles";
 
 
 const Quiz = () => {
-
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [myAnswer, setMyAnswer] = useState("");
     const [score, setScore] = useState(0);
@@ -42,7 +41,7 @@ const Quiz = () => {
     };
 
     //문제 풀이가 끝났는지 결정하는 함수
-    const finishGame = () => {
+    const finishHandler = () => {
             if(currentQuestion === data.length - 1){
                 setFinish(true);
             }
@@ -55,11 +54,6 @@ const Quiz = () => {
         setMyAnswer("");
         setScore(0);
     };
-
-    return(
-        <>
-        </>
-    );
 }
 
 export default Quiz;

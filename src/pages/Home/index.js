@@ -1,5 +1,9 @@
 import React, { Component } from "react";
+
+//Style
 import * as S from "./style";
+
+//Component
 import Dropdown from "../../components/dropdown";
 
 const Home = () => {
