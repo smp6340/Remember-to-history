@@ -10,6 +10,7 @@ const [finish, setFinish] = useState(false);
 const [show, setShow] = useState(false);
 const [clickAnswer, setClickAnswer] = useState(false);
 
+//사용자가 선택한 정답을 보여주는 함수
 export function answerCheck() {
     setMyAnswer(variant);
     setClickAnswer(true);
