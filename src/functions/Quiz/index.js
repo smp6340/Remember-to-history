@@ -23,7 +23,7 @@ export function correctAnswerCheck(){
     }
 };
 
-//정답공개 함수
+//사용자가 이벤트를 발생시켰을 때 문제의 정답을 공개시켜주는 함수
 export function showAnswer() {
     setShow(true);
 };
