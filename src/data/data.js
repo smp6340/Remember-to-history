@@ -1,5 +1,5 @@
 //Quiz Data
-export const data = [
+const data = [
 //Test Data
     {
         id: "0",
@@ -15,3 +15,5 @@ export const data = [
         variants: ['back-end', 'android', 'ios', 'ai', 'front-end']
     },
 ]
+
+export default data;
