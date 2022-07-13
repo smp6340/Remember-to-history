@@ -18,3 +18,9 @@ code {
   font-weight: 100;
   src: url("./assets/font/ChosunCentennial_ttf.ttf");
 }
+
+@font-face {
+  font-family: "ONE";
+  font-style: normal;
+  src: url("./assets/font/ONE\ Mobile\ POP.ttf");
+}

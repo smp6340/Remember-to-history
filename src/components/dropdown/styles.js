@@ -16,9 +16,20 @@ export const DropdownMenu = styled.select`
     height: 5vh;
     font-size: 20px;
     z-index: 3;
+    font-family: "ONE";
+    font-style: normal;
+    :hover{
+        cursor: pointer;
+    }
 `;
 
 export const SubmitBtn = styled.button`
     position: relative;
     width: 10%;
+    font-family: "ONE";
+    font-style: normal;
+    font-size: 17px;
+    :hover{
+        cursor: pointer;
+    }
 `;

@@ -11,7 +11,7 @@ const Home = () => {
         <>
         <S.container>
             <S.Title>
-                도전 역사왕!
+                기억해야한다
                 <Dropdown />
             </S.Title>
         </S.container>

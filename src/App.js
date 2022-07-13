@@ -8,7 +8,7 @@ import Background from './components/background';
 import Home from './pages/Home';
 import Problem from './pages/Problem';
 
-//DAta
+//Data
 import data from './data/data'
 
 const App = () => {
@@ -64,7 +64,7 @@ const startOver = () => {
       <Background />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/problem" element={<Problem currentQuestion={currentQuestion} />} />
+        <Route path="/problem" element={<Problem type={1} />} />
       </Routes>
     </BrowserRouter>
   )
