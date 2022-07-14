@@ -17,6 +17,8 @@ const Problem = (type) => {
         answer: "",
         variants: []
     })
+
+    //푼 문제의 인덱스를 저장하고 있음
     const [already, setAready] = useState([]);
 
     const changeQuestion = () => {
