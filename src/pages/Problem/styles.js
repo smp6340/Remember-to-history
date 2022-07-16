@@ -35,6 +35,7 @@ export const Option = styled.div`
     transition: all 0.5s ease;
     :hover{
         cursor: pointer;
-        color: royalblue;
+        background-color: white;
+        color: black;
     }
 `
