@@ -11,7 +11,7 @@ const Home = () => {
         <>
         <S.container>
             <S.Title>
-                기억해야한다
+                기억해줘
                 <Dropdown />
             </S.Title>
         </S.container>
