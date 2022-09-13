@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-
+import { useParams } from "react-router-dom";
 //Style
 import * as S from "./styles";
 
@@ -9,6 +9,8 @@ import * as S from "./styles";
 import data from "../../data/data";
 
 const Problem = (type) => {
+
+    const params = useParams();
 
     const [question, setQuestion] = useState(        
     {
@@ -25,7 +27,28 @@ const Problem = (type) => {
         const random = Math.ceil(Math.random()*2)-1;
         console.log(random);
         if(!already.includes(random)) {
-            setQuestion(data[random]);
+            switch(params.type) {
+                case 'threeKingdoms' :
+                    setQuestion(data.threeKingdoms[random]);
+                    break;
+                case 'shilla' :
+                    setQuestion(data.shilla[random]);
+                    break;
+                case 'Goryeo' : 
+                    setQuestion(data.Goryeo[random]);
+                    break;
+                case 'joseon' :
+                    setQuestion(data.joseon[random]);
+                    break;
+                case 'koreanEmpire' :
+                    setQuestion(data.koreanEmpire[random]);
+                    break;
+                case 'japaneseEra' :
+                    setQuestion(data.japaneseEra[random]);
+                    break;
+                default :
+                    break;
+             }
             setAready([...already, random]);
         }
         else
@@ -34,6 +57,7 @@ const Problem = (type) => {
 
     useEffect(()=>{
         changeQuestion();
+        console.log(params);
     },[])
 
     

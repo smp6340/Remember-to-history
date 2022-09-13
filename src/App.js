@@ -64,7 +64,7 @@ const startOver = () => {
       <Background />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/problem" element={<Problem type={1} />} />
+        <Route path="/problem/:type" element={<Problem type={1} />} />
       </Routes>
     </BrowserRouter>
   )
