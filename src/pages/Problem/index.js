@@ -48,7 +48,7 @@ const Problem = (type) => {
                     break;
                 default :
                     break;
-             }
+            }
             setAready([...already, random]);
         }
         else

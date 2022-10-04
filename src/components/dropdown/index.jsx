@@ -15,7 +15,7 @@ const Dropdown = () => {
                 <option key="koreanEmpire" value="koreanEmpire">대한제국</option>
                 <option key="japaneseEra" value="japaneseEra">일제강점기</option>
             </S.DropdownMenu>
-            <S.SubmitBtn type="submit">시작하기</S.SubmitBtn>
+            <S.SubmitBtn type="submit">문제풀기</S.SubmitBtn>
         </S.Container>
     );
 }
