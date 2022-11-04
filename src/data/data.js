@@ -1,5 +1,6 @@
 //Quiz Data
 const data = {
+    //삼국시대
     threeKingdoms: [    
         {
             id: "0",
@@ -14,6 +15,7 @@ const data = {
             variants: ['back-end', 'android', 'ios', 'ai', 'front-end']
         }
     ],
+    //신라
     shilla: [
         {
             id: "100",
@@ -22,22 +24,26 @@ const data = {
             variants: ['사대부', '중추원 개편', '독서삼품과', '몰라']
         }
     ],
+    //고려
     Goryeo: [
         {
 
         }
     ],
+    //조선
     joseon: [
         {
 
         }
     ],
+    //대한제국
     koreanEmpire: [
         {
 
         }
     ],
-    japaneseEra: [
+    //일제강점기
+    japanese_colonial_period: [
         {
 
         }

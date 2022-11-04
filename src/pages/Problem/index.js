@@ -43,8 +43,8 @@ const Problem = (type) => {
                 case 'koreanEmpire' :
                     setQuestion(data.koreanEmpire[random]);
                     break;
-                case 'japaneseEra' :
-                    setQuestion(data.japaneseEra[random]);
+                case 'japanese_colonial_period' :
+                    setQuestion(data.japanese_colonial_period[random]);
                     break;
                 default :
                     break;

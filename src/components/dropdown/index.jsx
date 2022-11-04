@@ -13,7 +13,7 @@ const Dropdown = () => {
                 <option key="goryeo" value="Goryeo">고려</option>
                 <option key="joseon" value="joseon">조선</option>
                 <option key="koreanEmpire" value="koreanEmpire">대한제국</option>
-                <option key="japaneseEra" value="japaneseEra">일제강점기</option>
+                <option key="japanese_colonial_period" value="japanese_colonial_period">일제강점기</option>
             </S.DropdownMenu>
             <S.SubmitBtn type="submit">문제풀기</S.SubmitBtn>
         </S.Container>
