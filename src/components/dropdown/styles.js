@@ -16,10 +16,10 @@ export const DropdownMenu = styled.select`
     height: 5vh;
     font-size: 20px;
     z-index: 3;
-    font-family: "ONE";
+    font-family: "ONE"; 
     font-style: normal;
     :hover{
-        cursor: pointer;
+        cursor: pointer; 
     }
 `;
 
